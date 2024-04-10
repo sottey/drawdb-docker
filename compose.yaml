@@ -1,0 +1,8 @@
+version: "3.3"
+services:
+  drawdb:
+    ports:
+      - 5173:5173
+    image: sottey/drawdb
+    restart: unless-stopped
+networks: {}
