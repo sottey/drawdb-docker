@@ -3,6 +3,6 @@ services:
   drawdb:
     ports:
       - 5173:5173
-    image: sottey/drawdb
+    image: yourname/yourimagename
     restart: unless-stopped
 networks: {}
