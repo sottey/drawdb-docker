@@ -14,14 +14,14 @@ I wanted to run the incredible DrawDB locally, but I wanted it in a docker conta
     docker build -t yourname/yourimagename .
     ```
   -  Run the image:
-    ```
-    docker run -d -p 8080:5173 yourname/yourimagename
-    ```
+      ```
+      docker run -d -p 8080:5173 yourname/yourimagename
+      ```
 
 * Docker Compose:
   To just run using the precreated image:
   - Download the compose.yaml file
-  - run:
-  ```
-  docker-compose up
-  ```
+  - Run:
+    ```
+    docker-compose up
+    ```
